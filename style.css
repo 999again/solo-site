@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.Hero {
+    background-image: url(kay-boadi-nejReObVk8w-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 50px 20px 50px;
+    border-bottom: 100px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+img {
+    width: 200px;
+}
+.title {
+    background-color: azure;
+    background-size: auto;
+    font-size: 30px;
+    display: flex;
+    border-radius: 20px;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 0px 0px 5px black;
+    transition: transform 0.5s ease, box-shadow 0.25 ease;
+    justify-content: center;
+}
+.title:hover {
+    box-shadow: 0 8px 20px rgb(41, 51, 63);
+}
+
+.message {
+    background-color: rgba(33, 64, 122, 0.397);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 8px 5px 8px 5px;
+    box-shadow: 0px 0px 5px black;
+    color: aliceblue;
+    margin-top: -7px;
+
+}
+
+#branch {
+    background-color: rgb(198, 221, 145);
+    margin-top: -22px;
+    height: 400px;
+}
+
+#things {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.head {
+    color: rgba(171, 202, 238, 0.877);
+    text-shadow: 0 0 3px black;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.act1, .act2, .act3 {
+    width: 150px;
+    border: 6px solid white;
+    border-radius: 50%;
+    height: 150px;
+    background-size: cover;
+    margin: 0 auto 0 auto;
+    transition: transform 0.5s ease;
+}
+.act2 {
+    background-image: url(racing.jpg);
+}
+.act3 {
+    background-image: url(swimming.jpg);
+}
+.act1{
+    background-image: url(fishing.jpg);
+}
+
+.act1:hover {
+    transform: translateY(-5px);
+}
+
+.act2:hover {
+    transform: translateY(-5px);
+}
+
+.act3:hover {
+    transform: translateY(-5px);
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    
+}
+
+.activity h3 {
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activity p {
+    margin-top: 0;
+}
+
+#guide {
+    background-color: rgb(238, 238, 238);
+    margin-top: -22px;
+    height: 400px;
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-bottom: 15px solid #3c831398;
+    
+}
+
+.me {
+    width: 190px;
+    height: 190px;
+    border-radius: 10%;
+    margin-left: 40px;
+    margin-top: 60px;
+    transition: transform 0.9s ease, box-shadow 0.3s ease;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.info {
+    margin-left: 5px;
+    font-style: italic;
+}
+.me:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px green;
+}
